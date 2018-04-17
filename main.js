@@ -5,4 +5,5 @@ require.config({
 })
 require(["app"],function(mod){
 	mod.create();
+	mod.build()
 })

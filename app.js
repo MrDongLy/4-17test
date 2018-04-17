@@ -3,7 +3,11 @@ define(["jquery"],function($){
 		console.log("createApp")
 		$("#box").css("background","red")
 	}
+	function build(){
+		console.log("build")
+	}
 	return {
-		create:createApp
+		create:createApp,
+		build:build
 	}
 })
